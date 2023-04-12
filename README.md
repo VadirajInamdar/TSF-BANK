@@ -20,4 +20,6 @@ Basic Banking System
 - ![JavaScript](https://img.shields.io/badge/JavaScript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E)
 - ![PHP](https://img.shields.io/badge/PHP-%23777BB4.svg?style=flat&logo=php&logoColor=white)
 - ![MySQL](https://img.shields.io/badge/MySQL-%2300f.svg?style=flat&logo=mysql&logoColor=white)
-- ![JQuery](https://img.shields.io/badge/JQuery-%2300f.svg?style=flat&logo=jquery&logoColor=white)
+
+# Hosted at:-
+https://unfossilized-escort.000webhostapp.com/
