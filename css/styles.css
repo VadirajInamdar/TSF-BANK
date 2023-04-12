@@ -1,0 +1,268 @@
+*{
+  font-family:Arial, Helvetica, sans-serif;  
+}
+.banner{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-bottom: 120px;
+  position: relative;
+  z-index: 1;
+}
+.text{
+  padding: 10rem;
+  padding-left: 4rem !important;
+  text-align: justify;
+}
+.container-main{
+  display: flex;
+  margin-top: 30px;
+  padding: 40px 90px;
+  margin-left: 80px;
+}
+.container-1{
+  height: auto;
+  width: 60%;
+  text-align: justify;
+  padding: 40px;
+  margin-top: 90px;
+  margin-right: 40px;
+  order: 1;
+  /* te; */
+}
+.container-1 p{
+  size: 30px;
+}
+.container-2{
+  height: auto;
+  order: 2;
+  width: auto;
+}
+
+#bank-pic{
+  height: 400px;
+  width: 400px;
+  border-radius: 50px;
+}
+
+.container-main-2{
+  width: 100px;
+  height: 100px;
+  /* background: linear-gradient(to right, rgba(150, 110, 198, 0.9), rgba(37, 180, 252, 0.9));  */
+  width: auto;
+  height: 350px;
+}
+
+.container-main-2 #operation{
+  text-align: center;
+}
+
+.container-main-2 .cards{
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+.container-main-2 .card-1{
+  height: 200px;
+  width: 500px;
+  margin-right: 20px;
+  text-align: center;
+  border-radius: 20px;
+  /* background-color: rgb(255, 250, 240); */
+  transition: transform 0.2s ease;
+  background: rgba(255, 255, 255, 0.055);
+  box-shadow: 0px 5px 89.61px 13.39px rgba(23, 29, 113, 0.26);
+}
+
+.container-main-2 .card-1 .card-1-btn{
+  width: 500px;
+    margin-top: 19px;
+    height: 47px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 10;
+    border-bottom-right-radius: 10px;
+}
+
+.card-1:hover{
+  transform: scale(1.05);
+  transition: 0.2;
+  
+}
+.container-main-2 .card-1 #image-1{
+  width: 100px;
+  height: 100px;
+  margin-top:10px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+.container-main-2 .card-2{
+  height: 200px;
+  width: 500px;
+  margin-left: 20px;
+  text-align: center;
+  border-radius: 20px;
+  /* background-color: rgb(255, 250, 240); */
+  transition: transform 0.2s ease;
+  background: rgba(255, 255, 255, 0.055);
+  box-shadow: 0px 5px 89.61px 13.39px rgba(23, 29, 113, 0.26);
+}
+.container-main-2 .card-2 #image-2{
+  width: 100px;
+  height: 100px;
+  margin-top:10px ;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+.container-main-2 .card-2 .card-2-btn{
+    width: 500px;
+    margin-top:19px;
+    height: 47px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 10;
+    border-bottom-right-radius: 10px;
+}
+.card-2:hover{
+  transform: scale(1.05);
+  transition: 0.2;
+}
+
+/* FOOTER */
+footer {
+  background-color: rgba(0, 2, 2, 0.813);
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* Styles mobile phones: */
+@media only screen and (max-width: 768px) {
+  
+  .container-main
+  {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+  }
+  .container-1
+  {
+    margin-top: 20px;
+    width: 100%;
+    height: fit-content;
+    padding: 20px;
+    margin: 0;
+    text-align: justify;
+    position: relative;
+    order: 2;
+}
+  .container-1 #bank-name{
+    text-align: center;
+    
+  }
+  .container-2{
+    margin-top: 20px;
+    width: auto;
+    height: auto;
+    text-align: center;
+    order: 1;
+
+
+  }
+  .container-2 #bank-pic{
+    height: 200px;
+    width: 200px;
+  }
+  .collapse .navbar-nav{
+    align-items: center;
+    text-align: center;
+  }
+  /* SECTION - 2 */
+  .container-main-2{
+    margin: 50px;
+  }
+  .container-main-2 .cards{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+  .container-main-2 .card-1{
+    height: 200px;
+    width: 300px;
+    text-align: center;
+    border-radius: 20px;
+    /* background-color: rgb(255, 250, 240); */
+    transition: transform 0.2s ease;
+    margin-bottom: 30px;
+    background: rgba(255, 255, 255, 0.055);
+    box-shadow: 0px 5px 89.61px 13.39px rgba(23, 29, 113, 0.26);
+  }
+  .container-main-2 .card-2{
+    height: 200px;
+    width: 300px;
+    text-align: center;
+    border-radius: 20px;
+    /* background-color: rgb(255, 250, 240); */
+    transition: transform 0.2s ease;
+    margin-left: 0;
+    margin-bottom: 20px;
+    background: rgba(255, 255, 255, 0.055);
+    box-shadow: 0px 5px 89.61px 13.39px rgba(23, 29, 113, 0.26);
+  }
+
+  .container-main-2 .card-1 .card-1-btn{
+    width: 300px;
+      margin-top: 19px;
+      height: 47px;
+      border-top-right-radius: 0;
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 10;
+      border-bottom-right-radius: 10px;
+  }
+  .container-main-2 .card-2 .card-2-btn{
+    width: 300px;
+    margin-top:19px;
+    height: 47px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 10;
+    border-bottom-right-radius: 10px;
+}
+
+  .card-1:hover{
+    transform: scale(1.05);
+    transition: 0.2;
+    
+  }
+  .card-2:hover{
+    transform: scale(1.05);
+    transition: 0.2;
+    
+  }
+
+  .container-main-2 .card-1 #image-1{
+    width: 100px;
+    height: 100px;
+    margin-top:10px;
+    border: 1px solid black;
+    border-radius: 50%;
+  }
+  
+  .container-main-2 .card-2 #image-2{
+    width: 100px;
+    height: 100px;
+    margin-top:10px ;
+    border: 1px solid black;
+    border-radius: 50%;
+  }
+  
+  
+
+}

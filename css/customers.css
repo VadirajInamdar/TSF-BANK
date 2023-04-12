@@ -1,0 +1,134 @@
+*{
+    font-family:Arial, Helvetica, sans-serif;  
+}
+.banner{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-bottom: 120px;
+  position: relative;
+  z-index: 1;
+
+}
+/* FOOTER */
+footer {
+    background-color: rgba(0, 2, 2, 0.813);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+
+#cust-details{
+  text-align: center;
+}
+.detail{
+  margin-top: 50px;
+  display: flex;
+  border-radius: 20px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.055);
+  box-shadow: 0px 5px 89.61px 13.39px rgba(23, 29, 113, 0.26);
+  width: 700px;
+  align-content: center;
+  margin-left: 400px;
+  padding: 30px;
+  background: linear-gradient(to right, rgba(199, 90, 200, 0.9), rgba(91, 141, 228, 0.9));
+}
+.customer-image{
+  height: auto;
+  width: auto;
+  text-align: center;
+  margin-left: 30px;
+  /* border: 3px solid rgb(0, 0, 0); */
+  padding: 5px;
+  border-radius: 10px;
+}
+#cust-image{
+  height: 235px;
+  width: 165px;
+  border-radius: 10px;
+}
+.details{
+  width: 100%;
+  height: 250px;
+}
+#name-logo{
+  margin-top: 20px;
+    height: 25px;
+    width: 26px;
+    margin-left: 25px;
+}
+#cust-name{
+  margin-top: -25px;
+  margin-left: 55px;
+  text-transform:capitalize;
+}
+.banner {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-bottom: 120px;
+  position: relative;
+  z-index: 1;
+}
+
+#transactions{
+  text-align: center;
+}
+@media only screen and (max-width: 768px) {
+    .collapse .navbar-nav{
+        align-items: center;
+        /* text-align: center; */
+      }
+      .container {
+        max-width: 768px;
+        margin: 0 auto;
+      }
+
+      #cust-details{
+        text-align: center;
+      }
+      .detail{
+      margin-top: 50px;
+      display: flex;
+      border-radius: 20px;
+      border: 3px solid black;
+      width: 360px;
+      align-content: center;
+      margin-left: 15px;
+      /* padding: 30px; */
+      background: linear-gradient(to right, rgba(199, 90, 200, 0.9), rgba(91, 141, 228, 0.9));
+      }
+      #cust-image{
+        height: 135px;
+        width: 100px;
+        border-radius: 10px;
+        margin-left: -56px;
+      }
+      .details{
+        width: 100%;
+        height: 150px;
+        
+      }
+      .details h4{
+        font-size: smaller;
+      }
+      #name-logo{
+          margin-top: 20px;
+          height: 15px;
+          width: 16px;
+          margin-left: 25px;
+      }
+      #cust-name{
+        margin-top: -14px;
+        margin-left: 46px;
+        text-transform: lowercase;
+      }
+
+}
